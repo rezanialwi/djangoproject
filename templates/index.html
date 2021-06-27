@@ -1,0 +1,26 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static "css/style.css" %}">
+    <link rel="stylesheet" href="{% static app_css %}">
+    <title>{{ judul }}</title>
+</head>
+<body>
+    <img id="banner" src="{% static banner%}" alt="">
+    <nav>
+
+    
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/about">About</a></li>
+    </ul>
+</nav>
+    <h1>Selamat datang di {{ judul }}</h1>
+   
+</body>
+</html>

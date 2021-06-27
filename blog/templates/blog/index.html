@@ -1,0 +1,28 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static "css/style.css" %}">
+    <link rel="stylesheet" href="{% static app_css %}">
+    <title>{{ subjudul }}|({{ judul }})</title>
+</head>
+<body>
+    <img id="banner" style="width: 100%;" src="{% static banner %}" alt="">
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/about">About</a></li>
+            <!-- <ul>
+                <li><a href="/blog/cerita">Cerita</a></li>
+                <li><a href="/blog/news">News</a></li>
+            </ul> -->
+        </ul>
+    </nav>
+    <h1>{{ judul }} - {{ subjudul }}</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium quam neque adipisci fugiat, placeat reiciendis corrupti quod ullam deserunt eius et voluptate officia exercitationem aut a aliquid libero excepturi corporis.</p>
+    </body>
+</html>
