@@ -7,7 +7,6 @@ Django
 gunicorn==20.1.0
 idna==2.10
 joblib==1.0.1
-mysqlclient @ file:///E:/dev/tutorial-django/mysqlclient-1.4.6-cp39-cp39-win_amd64.whl
 nltk==3.6.2
 oauthlib==3.1.1
 PySocks==1.7.1
